@@ -17,6 +17,8 @@
 		6376F3292873F87B00295182 /* Reels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6376F3282873F87B00295182 /* Reels.storyboard */; };
 		6376F32B2873F88300295182 /* Shop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6376F32A2873F88300295182 /* Shop.storyboard */; };
 		6376F32D2873F88B00295182 /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6376F32C2873F88B00295182 /* My.storyboard */; };
+		63D80DF5287C576B0038D337 /* InstagramMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D80DF4287C576B0038D337 /* InstagramMainTableViewCell.swift */; };
+		63D80DF7287C57B30038D337 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D80DF6287C57B30038D337 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		6376F3282873F87B00295182 /* Reels.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reels.storyboard; sourceTree = "<group>"; };
 		6376F32A2873F88300295182 /* Shop.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shop.storyboard; sourceTree = "<group>"; };
 		6376F32C2873F88B00295182 /* My.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
+		63D80DF4287C576B0038D337 /* InstagramMainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramMainTableViewCell.swift; sourceTree = "<group>"; };
+		63D80DF6287C57B30038D337 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,8 @@
 		6376F3212873F7A800295182 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				6376F3242873F86900295182 /* Home.storyboard */,
+				63D80DF3287C57310038D337 /* View */,
+				63D80DF6287C57B30038D337 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -117,6 +122,15 @@
 				6376F32C2873F88B00295182 /* My.storyboard */,
 			);
 			path = My;
+			sourceTree = "<group>";
+		};
+		63D80DF3287C57310038D337 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63D80DF4287C576B0038D337 /* InstagramMainTableViewCell.swift */,
+				6376F3242873F86900295182 /* Home.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,8 +209,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D80DF5287C576B0038D337 /* InstagramMainTableViewCell.swift in Sources */,
 				6376F3092873E59C00295182 /* AppDelegate.swift in Sources */,
 				6376F30B2873E59C00295182 /* SceneDelegate.swift in Sources */,
+				63D80DF7287C57B30038D337 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
